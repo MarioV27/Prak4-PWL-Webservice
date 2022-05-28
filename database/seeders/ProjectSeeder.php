@@ -25,6 +25,6 @@ class ProjectSeeder extends Seeder
                 'tools' => 'Laravel, ReactJS',
             ];
         }
-        Project::insert($project);
+        project::insert($project);
     }
 }
